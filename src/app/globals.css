@@ -1,0 +1,157 @@
+@import "tailwindcss";
+
+@theme {
+  --color-dark: #0a0a0a;
+  --color-panel: #111111;
+  --color-accent: #cc0000;
+  --color-accent-dim: rgba(204, 0, 0, 0.5);
+  --color-accent-dark: #8b0000;
+  --color-gold: #ffd700;
+  --color-glass: rgba(255, 255, 255, 0.04);
+  --color-border: rgba(255, 255, 255, 0.08);
+  --color-text: #ffffff;
+  --color-text-dim: rgba(255, 255, 255, 0.6);
+  --color-text-dimmer: rgba(255, 255, 255, 0.4);
+  
+  --font-bebas: 'Bebas Neue', sans-serif;
+  --font-barlow: 'Barlow', sans-serif;
+  --font-barlow-condensed: 'Barlow Condensed', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+
+body {
+  width: 100%;
+  max-width: 100%;
+  background-color: #0a0a0a;
+  color: #ffffff;
+  font-family: 'Barlow', -apple-system, BlinkMacSystemFont, sans-serif;
+  overflow-x: hidden;
+  font-size: 14px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Desktop - Full beautiful view */
+@media (min-width: 901px) {
+  section {
+    padding: 100px 32px !important;
+  }
+}
+
+/* Footer base styles */
+.site-footer {
+  width: 100%;
+  padding: 60px 24px 30px;
+  border-top: 1px solid rgba(255,255,255,0.08);
+  background: #050505;
+}
+
+/* Tablet */
+@media (max-width: 900px) and (min-width: 601px) {
+  section {
+    padding: 60px 20px !important;
+  }
+  
+  body {
+    font-size: 13px;
+  }
+  
+  .site-footer .footer-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+/* Mobile - Compact view */
+@media (max-width: 600px) {
+  body {
+    font-size: 13px;
+  }
+  
+  section {
+    padding: 50px 16px !important;
+  }
+  
+  h1, h2, h3 {
+    letter-spacing: 1px !important;
+  }
+  
+  .tire-grid {
+    grid-template-columns: 1fr !important;
+    gap: 40px !important;
+  }
+  
+  .site-footer {
+    padding: 40px 16px 24px !important;
+  }
+  
+  .site-footer .footer-grid {
+    grid-template-columns: 1fr !important;
+    gap: 24px !important;
+    margin-bottom: 24px !important;
+  }
+  
+  .site-footer .footer-bottom {
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+  }
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Prevent horizontal scroll */
+body, html {
+  overflow-x: hidden;
+}
+
+/* Better touch targets on mobile */
+@media (pointer: coarse) {
+  a, button {
+    min-height: 44px;
+  }
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0a0a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #cc0000;
+}
