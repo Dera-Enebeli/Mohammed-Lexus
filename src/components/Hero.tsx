@@ -63,7 +63,7 @@ export default function Hero() {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   return (
-    <section ref={ref} style={{ width: '100%', minHeight: '100vh', paddingTop: '100px', position: 'relative', overflow: 'hidden', background: 'radial-gradient(ellipse 80% 60% at 50% 40%, #1a0505 0%, #0a0a0a 70%)' }}>
+    <section ref={ref} className="hero-section" style={{ width: '100%', minHeight: '100vh', paddingTop: '100px', position: 'relative', overflow: 'hidden', background: 'radial-gradient(ellipse 80% 60% at 50% 40%, #1a0505 0%, #0a0a0a 70%)' }}>
       <motion.div 
         style={{ position: 'relative', zIndex: 10, width: '100%', maxWidth: '1200px', margin: '0 auto', padding: '0 32px' }}
         initial={{ opacity: 0, y: 30 }}

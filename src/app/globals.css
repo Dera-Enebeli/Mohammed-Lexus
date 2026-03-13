@@ -95,6 +95,10 @@ img {
     padding: 50px 16px !important;
   }
   
+  .hero-section {
+    padding-top: 120px !important;
+  }
+  
   h1, h2, h3 {
     letter-spacing: 1px !important;
   }
