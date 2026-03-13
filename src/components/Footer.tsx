@@ -10,9 +10,17 @@ export default function Footer() {
       <div style={{ maxWidth: '1100px', margin: '0 auto' }}>
         <div className="footer-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '40px', marginBottom: '40px' }}>
           <div>
-            <h3 style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: '32px', color: '#ffffff', marginBottom: '16px' }}>
-              MOHAMMED<span style={{ color: '#00bfff' }}>_LEXUS</span>
-            </h3>
+            <a href="#" style={{ display: 'inline-block', marginBottom: '16px' }}>
+              <img 
+                src="/lexus-logo.png" 
+                alt="MOHAMMED_LEXUS" 
+                style={{ 
+                  height: '52px', 
+                  width: 'auto',
+                  objectFit: 'contain'
+                }} 
+              />
+            </a>
             <p style={{ color: 'rgba(255,255,255,0.5)', fontSize: '14px', lineHeight: 1.7 }}>
               Nigeria premier automotive customization shop. Car wraps, engine tuning, upgrades, tire lettering, and drift builds.
             </p>

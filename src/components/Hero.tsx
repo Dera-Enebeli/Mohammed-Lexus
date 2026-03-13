@@ -174,6 +174,19 @@ export default function Hero() {
             </div>
           ))}
         </div>
+
+        <div style={{ display: 'flex', justifyContent: 'center', marginTop: '40px' }}>
+          <img 
+            src="/lexus-logo.png" 
+            alt="MOHAMMED_LEXUS" 
+            style={{ 
+              height: '36px', 
+              width: 'auto',
+              objectFit: 'contain',
+              opacity: 0.6
+            }} 
+          />
+        </div>
       </motion.div>
     </section>
   );

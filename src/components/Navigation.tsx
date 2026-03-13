@@ -68,8 +68,17 @@ export default function Navigation() {
         }}
       >
         <div style={{ maxWidth: '1400px', margin: '0 auto', padding: '0 32px', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-          <a href="#" style={{ fontFamily: "'Bebas Neue', sans-serif", fontSize: '28px', letterSpacing: '2px', textDecoration: 'none', color: '#ffffff' }}>
-            MOHAMMED<span style={{ color: '#00bfff' }}>_LEXUS</span>
+          <a href="#" style={{ display: 'flex', alignItems: 'center', textDecoration: 'none' }}>
+            <img 
+              src="/lexus-logo.png" 
+              alt="MOHAMMED_LEXUS" 
+              style={{ 
+                height: isScrolled ? '42px' : '52px', 
+                width: 'auto',
+                objectFit: 'contain',
+                transition: 'height 0.3s ease'
+              }} 
+            />
           </a>
 
           <div className="desktop-nav" style={{ display: 'flex', alignItems: 'center', gap: '32px' }}>
