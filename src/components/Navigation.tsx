@@ -70,7 +70,7 @@ export default function Navigation() {
         <div style={{ maxWidth: '1400px', margin: '0 auto', padding: '0 32px', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
           <a href="#" style={{ display: 'flex', alignItems: 'center', textDecoration: 'none' }}>
             <img 
-              src="/lexus-main.png" 
+              src="/lexus-main.png?v=2" 
               alt="MOHAMMED_LEXUS" 
               style={{ 
                 height: isScrolled ? '42px' : '52px', 
