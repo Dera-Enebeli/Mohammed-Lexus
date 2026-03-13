@@ -12,7 +12,7 @@ export default function Footer() {
           <div>
             <a href="#" style={{ display: 'inline-block', marginBottom: '16px' }}>
               <img 
-                src="/lexus-logo.png" 
+                src="/lexus-main.png" 
                 alt="MOHAMMED_LEXUS" 
                 style={{ 
                   height: '52px', 

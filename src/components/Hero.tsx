@@ -177,7 +177,7 @@ export default function Hero() {
 
         <div style={{ display: 'flex', justifyContent: 'center', marginTop: '40px' }}>
           <img 
-            src="/lexus-logo.png" 
+            src="/lexus-main.png" 
             alt="MOHAMMED_LEXUS" 
             style={{ 
               height: '36px', 
